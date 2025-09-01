@@ -1,1 +1,784 @@
-It's a demo FarmHouse website Stucture in html and css.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style=" background-color: #f7fce2;" navbar bg-primary data-bs-theme=lite >   
+  <div class="container-fluid">
+    <img class="logo" src="assets/logo.png" alt="">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <h1 style="margin-left: 30px;">Forest Retreat</h1>
+    <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto "> 
+        <li class="nav-item custom-card">
+          <a class="nav-link fw-bold" href="index.html">Home</a>
+        </li>
+        <li class="nav-item custom-card">
+          <a class="nav-link fw-bold" href="About.html">About</a>
+        </li>
+        <li class="nav-item custom-card">
+          <a class="nav-link fw-bold" href="Enquiry_Form.html">Enquiry</a>
+        </li>
+        <li class="nav-item custom-card fw-bold">
+          <a class="nav-link " href="Contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
+<div class="container-fluid pb-5" style="background-color:white; ">
+    <div class="row ">
+        <div class="col-lg-6 pt-5 text-center">
+                        <h2 class="fw-bold fst-italic bounce-text" style="padding-top: 10%; padding-left: 10px;">
+                           "Escape the ordinary, <br>embrace the serenity of nature."
+                         </h2><br><br>
+                         <h6 style="padding-top: 5%; padding-left: 10px;">Escape the city and immerse yourself in nature. Green Haven offers a peaceful farmhouse experience with lush greenery, serene surroundings, and a perfect getaway for families and friends.</h3>
+        </div>
+
+        <div class="col-lg-6 pt-5  ">
+           <div id="blurCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner  rounded-5">
+
+    <div class="carousel-item active">
+      <div class="carousel-image-container">
+        <img src="assets/slide1.jpg" class="d-block w-100 rounded-5" alt="Slide 1">
+        <div class="overlay"></div>
+      </div>
+      <div class="carousel-caption d-none d-md-block">
+        
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="carousel-image-container">
+        <img src="assets/slide2.jpg" class="d-block w-100 rounded-5" alt="Slide 2">
+        <div class="overlay"></div>
+      </div>
+      <div class="carousel-caption d-none d-md-block">
+       
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="carousel-image-container">
+        <img src="assets/slide3.jpg" class="d-block w-100 rounded-5" alt="Slide 3">
+        <div class="overlay"></div>
+      </div>
+      <div class="carousel-caption d-none d-md-block">
+        
+      </div>
+    </div>
+
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#blurCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#blurCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+        </div>
+    </div>
+</div><br><br>
+
+
+<div class=" container-fluid pt-5 mb-5 pb-5">
+<div class=" container">
+  <h2 class="fw-bold mb-5 pb-5" style="text-align: center;">Collect Memories</h1>
+<div class="row">
+  <div class="col-lg-4">
+<div class="card ms-5 card custom-card" style="width: 18rem;">
+  <div class="img-wrapper">
+  <img src="assets/memries7.webp" class="card-img-top" alt="..." >
+  </div>
+  <div class="card-body">
+    <h5 class="card-title text-center fw-bold">Night Party</h5>
+    <p class="card-text">“Dance under the stars, shine brighter than the lights.”</p>
+    <a href="Booking.html" class="btn btn-success">Book Now</a>
+  </div>
+</div>
+</div>
+<div class="col-lg-4">
+<div class="card ms-5 custom-card" style="width: 18rem;">
+  <div class="img-wrapper">
+  <img src="assets/memries2.webp" class="card-img-top" alt="..." style="height: 190px;">
+  </div>
+  <div class="card-body">
+    <h5 class="card-title text-cente fw-bold">Birthday Celebration</h5>
+    <p class="card-text">“Another year older, another reason to celebrate.”</p>
+    <a href="Booking.html" class="btn btn-success">Book Now</a>
+  </div>
+  </div>
+</div>
+<div class="col-lg-4">
+<div class="card ms-5 custom-card" style="width: 18rem;">
+  <div class="img-wrapper">
+  <img src="assets/memries3.webp" class="card-img-top" alt="..." style="height:190px">
+  </div>
+  <div class="card-body">
+    <h5 class="card-title text-center fw-bold ">Poll Party</h5>
+    <p class="card-text">“Dive into fun, splash into memories.”</p>
+    <a href="Booking.html" class="btn btn-success">Book Now</a>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div class="container-fluid mt-5">
+  <h1 class="fw-bold pt-5" style="text-align: center;">Gallery</h1>
+  <div class="row ms-5" style="margin: px;">
+    <div class="col-lg-12 pt-5">
+      <div class="container mb-5">
+        <div class="image-gap">
+      <img class=" custom-card Gallery rounded-5" src="assets/image1.jpg" alt="">
+      <img class="custom-card Gallery rounded-5" src="assets/image2.jpg" alt="">
+      <img class="custom-card Gallery rounded-5" src="assets/image3.webp" alt=""><br><br><br>
+      <img class="custom-card Gallery rounded-5" src="assets/image4.jpg" alt="" style="height: 450px;">
+      <img class="custom-card Gallery rounded-5" src="assets/image5.jpg" alt="" style="height: 450px;">
+      <img class="custom-card Gallery rounded-5" src="assets/image6.jpg" alt="" style="height: 450px;">
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid mt-5" style="background-color:#f7fce2;">
+  <div class="container" >
+    <h6 class="fw-bold" style="padding-top: 50px; text-align: center; font-style: italic;">"Time is running out! Only a few spots remain, and this is your last chance to secure your booking. Don’t miss the opportunity to</h6>
+    <h6 class="fw-bold" style="padding-bottom: 50px; text-align: center; font-style: italic;">create unforgettable memories. Reserve your spot today and enjoy an amazing experience with friends and family!"</p>
+    <a type="button" href="Enquiry_Form.html" class="text-decoration-none custom-card btn btn-success p-2 mt-3"">Book Now</a></button>
+
+  </div>
+</div>
+
+
+
+<div class="container-fluidc mt-5 bg-dark " style="padding: 90px;">
+  <div class="container">
+    <div class="row pt-5">
+      <div class="col-lg-4">
+        <img src="assets/logo.png" alt="" style="width: 80% padding-top 20px; margin-top: 50px; margin-left: 80px;" class="circle-img">
+      </div>
+    
+    <div class="col-lg-2 pt-5">
+      <div>
+        <h6 style="color: white;">Quick Link</h6>
+      <ul class="" style="color: white;">
+        <li><a style=" color: white; text-decoration: none;" href="index.html"><h6 class="custom-card">Home</h6></a></li>
+        <li><a style="color: white; text-decoration: none;"  href="About.html"><h6 class="custom-card" >About</h6></a></li>
+        <li><a style="color: white; text-decoration: none;" href="Booking.html"><h6 class="custom-card">Booking</h6></a></li>
+        <li><a style="color: white; text-decoration: none;" href="Query.html"><h6 class="custom-card">Query</h6></a></li>
+        </ul>
+        </div>
+    </div>
+
+        <div class="col-lg-3 pt-5">
+      <div>
+        <h6 style="color: white;">Our Services</h6>
+      <ul class="" style="color: white;">
+        <li><a style=" color: white; text-decoration: none;" href="Booking.html"><h6 class="custom-card">Birthday Celebration</h6></a></li>
+        <li><a style="color: white; text-decoration: none;"  href="Booking.html"><h6 class="custom-card" >Poll-Party</h6></a></li>
+        <li><a style="color: white; text-decoration: none;" href="Booking.html"><h6 class="custom-card">Family Celebration</h6></a></li>
+        <li><a style="color: white; text-decoration: none;" href="About.html"><h6 class="custom-card">About us</h6></a></li>
+        </ul>
+        </div>
+    </div>
+
+        <div class="col-lg-3 pt-5">
+      <div>
+        <h6 style="color: white;">Address</h6><br>
+          <h6 style="color: white;">Located in Panhāla, within 3.5 miles of Panhala Fort and 11 miles of Kolhapur Train Station, Breeze Resort Panhala, Just 5 Minutes From Panhala!</p>
+        </div>
+    </div>
+    </div>
+  </div>
+</div>
+<div class="container1 text-cente"></div>
+<div class="container-fluid mt-5 ">
+  <div class="row text-cente">
+  <h style="text-align: center;">© 2025 Green Haven. All rights reserved.</h>
+</div>
+</div>
+</div>    
+</body>
+</html>
+
+
+<!----about section----->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style=" background-color: #f7fce2;" navbar bg-primary data-bs-theme=lite >   
+  <div class="container-fluid">
+    <img class="logo" src="assets/logo.png" alt="">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <h1 style="margin-left: 30px;">Forest Retreat</h1>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto "> <!--for navbar element move on right side -->
+        <li class="nav-item custom-card">
+          <a class="nav-link fw-bold" href="index.html">Home</a>
+        </li>
+        <li class="nav-item custom-card">
+          <a class="nav-link fw-bold" href="About.html">About</a>
+        </li>
+        <li class="nav-item custom-card">
+          <a class="nav-link fw-bold" href="Enquiry_Form.html">Enquiry</a>
+        </li>
+        <li class="nav-item custom-card fw-bold">
+          <a class="nav-link " href="Contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--information about farmhouse-->
+<div class="container-fluid mt-5">
+  <div class="container">
+    <div class="row"  style="padding-bottom: 50px;">
+      <div class="col-lg-12 pb-5">
+        <h2 style="text-align: center; padding: 50px; color: black;" class="fw-bold"> About Us  </h2>
+        <p style="text-align: center;"><b>"Green Forest"</b> Nestled in the serene landscapes of Phanala, our farmhouse is the perfect escape from the rush of city life. Surrounded by lush greenery, fresh air, and scenic views, the farmhouse offers a unique blend of comfort and nature. At <b>"Green Forest"</b>, we provide a peaceful environment for families, friends, and groups to relax, celebrate, and reconnect with nature. Whether you’re planning a weekend getaway, a family gathering, or a special event, our farmhouse is designed to give you memorable experiences. With spacious outdoor areas, cozy indoor rooms, and modern amenities, guests can enjoy the beauty of rural living while still having the convenience of comfort. Come and experience the warmth of countryside hospitality right here in Phanala. 🌾
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!----Fotter-->
+<div class="container-fluidc mt-5 bg-dark " style="padding: 90px;">
+  <div class="container">
+    <div class="row pt-5">
+      <div class="col-lg-4">
+        <img src="assets/logo.png" alt="" style="width: 80% padding-top 20px; margin-top: 50px; margin-left: 80px;" class="circle-img">
+      </div>
+    
+    <div class="col-lg-2 pt-5">
+      <div>
+        <h6 style="color: white;">Quick Link</h6>
+      <ul class="" style="color: white;">
+        <li><a style=" color: white; text-decoration: none;" href="index.html"><h6 class="custom-card">Home</h6></a></li>
+        <li><a style="color: white; text-decoration: none;"  href="About.html"><h6 class="custom-card" >About</h6></a></li>
+        <li><a style="color: white; text-decoration: none;" href="Booking.html"><h6 class="custom-card">Booking</h6></a></li>
+        <li><a style="color: white; text-decoration: none;" href="Query.html"><h6 class="custom-card">Query</h6></a></li>
+        </ul>
+        </div>
+    </div>
+
+        <div class="col-lg-3 pt-5">
+      <div>
+        <h6 style="color: white;">Our Services</h6>
+      <ul class="" style="color: white;">
+        <li><a style=" color: white; text-decoration: none;" href="Booking.html"><h6 class="custom-card">Birthday Celebration</h6></a></li>
+        <li><a style="color: white; text-decoration: none;"  href="Booking.html"><h6 class="custom-card" >Poll-Party</h6></a></li>
+        <li><a style="color: white; text-decoration: none;" href="Booking.html"><h6 class="custom-card">Family Celebration</h6></a></li>
+        <li><a style="color: white; text-decoration: none;" href="About.html"><h6 class="custom-card">About us</h6></a></li>
+        </ul>
+        </div>
+    </div>
+
+        <div class="col-lg-3 pt-5">
+      <div>
+        <h6 style="color: white;">Address</h6><br>
+          <h6 style="color: white;">Located in Panhāla, within 3.5 miles of Panhala Fort and 11 miles of Kolhapur Train Station, Breeze Resort Panhala, Just 5 Minutes From Panhala!</p>
+        </div>
+    </div>
+    </div>
+  </div>
+</div>
+<div class="container1 text-cente"></div>
+<div class="container-fluid mt-5 ">
+  <div class="row text-cente">
+  <h style="text-align: center;">© 2025 Green Haven. All rights reserved.</h>
+</div>
+</div>
+</div> 
+    
+</body>
+</html>
+
+
+<!--Enquiry section-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+      /* Green Button Styling */
+.btn-success {
+  background: linear-gradient(135deg, #198754, #28a745);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 30px;
+  padding: 10px 25px;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.btn-success:hover {
+  background: linear-gradient(135deg, #145c32, #198754);
+  transform: scale(1.05);
+  color: #fff;
+}
+
+
+/* Card hover effect */
+
+
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style=" background-color: #f7fce2;" navbar bg-primary data-bs-theme=lite >   
+  <div class="container-fluid">
+    <img class="logo" src="assets/logo.png" alt="">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <h1 style="margin-left: 30px;">Forest Retreat</h1>
+    <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav ms-auto "> <!--for navbar element move on right side -->
+        <li class="nav-item custom-card">
+          <a class="nav-link fw-bold" href="index.html">Home</a>
+        </li>
+        <li class="nav-item custom-card">
+          <a class="nav-link fw-bold" href="About.html">About</a>
+        </li>
+        <li class="nav-item custom-card">
+          <a class="nav-link fw-bold" href="Enquiry_Form.html">Enquiry</a>
+        </li>
+        <li class="nav-item custom-card fw-bold">
+          <a class="nav-link " href="Contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--information about farmhouse-->
+<div class="container-fluid mt-5">
+  <div class="container">
+    <div class="row"  style="padding-bottom: 50px;">
+        <div class="container py-4">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+            <div class="card shadow-lg border-0 rounded-4">
+                <div class="card-body p-4 p-md-5">
+                <h3 class="mb-3 fw-bold" style="text-align: center;">Enquiry Form</h3><hr>
+                <p class="text-muted mb-4">Fill in your details and we’ll contact you soon.</p>
+
+          <!-- Form -->
+          <form action="submit_enquiry.php" method="post">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label for="name" class="form-label fw-bold">Full Name</label>
+                <input type="text" id="name" name="name" class="form-control" placeholder="Your name" required>
+              </div>
+
+              <div class="col-md-6">
+                <label for="phone" class="form-label fw-bold">Phone</label>
+                <input type="tel" id="phone" name="phone" class="form-control" placeholder="10-digit number" pattern="[0-9]{10}" required>
+              </div>
+
+              <div class="col-md-6">
+                <label for="email" class="form-label fw-bold">Email (optional)</label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="you@example.com">
+              </div>
+
+              <div class="col-md-6">
+                <label for="date" class="form-label fw-bold">Preferred Date</label>
+                <input type="date" id="date" name="date" class="form-control" required>
+              </div>
+
+              <div class="col-md-6">
+                <label for="guests" class="form-label fw-bold">No. of Guests</label>
+                <input type="number" id="guests" name="guests" class="form-control" min="1" max="500" placeholder="e.g., 25" required>
+              </div>
+
+              <div class="col-md-6">
+                <label for="eventType" class="form-label fw-bold">Event Type</label>
+                <select id="eventType" name="eventType" class="form-select" required>
+                  <option value="" selected disabled>Choose...</option>
+                  <option>Family Stay</option>
+                  <option>Birthday Celebration</option>
+                  <option>Corporate Outing</option>
+                  <option>Pre-Wedding Shoot</option>
+                  <option>Day Picnic</option>
+                  <option>Other</option>
+                </select>
+              </div>
+
+              <div class="col-12">
+                <label for="message" class="form-label fw-bold">Message / Requirements</label>
+                <textarea id="message" name="message" rows="4" class="form-control" placeholder="Share any special requirements…" required></textarea>
+              </div>
+
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="agree" required>
+                  <label class="form-check-label" for="agree">
+                    I agree to be contacted regarding my enquiry.
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div class="d-grid d-sm-flex gap-2 mt-4">
+              <button type="submit" class="btn btn-primary px-4">Submit Enquiry</button>
+          <!-- End Form -->
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<!----Fotter-->
+<div class="container-fluidc mt-5 bg-dark " style="padding: 90px;">
+  <div class="container">
+    <div class="row pt-5">
+      <div class="col-lg-4">
+        <img src="assets/logo.png" alt="" style="width: 80% padding-top 20px; margin-top: 50px; margin-left: 80px;" class="circle-img">
+      </div>
+    
+    <div class="col-lg-2 pt-5">
+      <div>
+        <h6 style="color: white;">Quick Link</h6>
+      <ul class="" style="color: white;">
+        <li><a style=" color: white; text-decoration: none;" href="index.html"><h6 class="custom-card">Home</h6></a></li>
+        <li><a style="color: white; text-decoration: none;"  href="About.html"><h6 class="custom-card" >About</h6></a></li>
+        <li><a style="color: white; text-decoration: none;" href="Booking.html"><h6 class="custom-card">Booking</h6></a></li>
+        <li><a style="color: white; text-decoration: none;" href="Query.html"><h6 class="custom-card">Query</h6></a></li>
+        </ul>
+        </div>
+    </div>
+
+        <div class="col-lg-3 pt-5">
+      <div>
+        <h6 style="color: white;">Our Services</h6>
+      <ul class="" style="color: white;">
+        <li><a style=" color: white; text-decoration: none;" href="Booking.html"><h6 class="custom-card">Birthday Celebration</h6></a></li>
+        <li><a style="color: white; text-decoration: none;"  href="Booking.html"><h6 class="custom-card" >Poll-Party</h6></a></li>
+        <li><a style="color: white; text-decoration: none;" href="Booking.html"><h6 class="custom-card">Family Celebration</h6></a></li>
+        <li><a style="color: white; text-decoration: none;" href="About.html"><h6 class="custom-card">About us</h6></a></li>
+        </ul>
+        </div>
+    </div>
+
+        <div class="col-lg-3 pt-5">
+      <div>
+        <h6 style="color: white;">Address</h6><br>
+          <h6 style="color: white;">Located in Panhāla, within 3.5 miles of Panhala Fort and 11 miles of Kolhapur Train Station, Breeze Resort Panhala, Just 5 Minutes From Panhala!</p>
+        </div>
+    </div>
+    </div>
+  </div>
+</div>
+<div class="container1 text-cente"></div>
+<div class="container-fluid mt-5 ">
+  <div class="row text-cente">
+  <h style="text-align: center;">© 2025 Green Haven. All rights reserved.</h>
+</div>
+</div>
+</div> 
+    
+</body>
+</html>
+
+
+<!----contect section--->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style=" background-color: #f7fce2;" navbar bg-primary data-bs-theme=lite >   
+  <div class="container-fluid">
+    <img class="logo" src="assets/logo.png" alt="">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <h1 style="margin-left: 30px;">Forest Retreat</h1>
+    <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav ms-auto "> 
+        <li class="nav-item custom-card">
+          <a class="nav-link fw-bold" href="index.html">Home</a>
+        </li>
+        <li class="nav-item custom-card">
+          <a class="nav-link fw-bold" href="About.html">About</a>
+        </li>
+        <li class="nav-item custom-card">
+          <a class="nav-link fw-bold" href="Enquiry_Form.html">Enquiry</a>
+        </li>
+        <li class="nav-item custom-card fw-bold">
+          <a class="nav-link " href="Contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container py-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+      <div class="card shadow-lg border-0 rounded-4">
+        <div class="card-body p-4 p-md-5">
+          <h3 class="mb-3 text-center fw-bold">Contact Us</h3><hr>
+          <p class="text-muted text-center mb-4 fw-bold">We’d love to hear from you! Reach out using the details below.</p>
+          <div class="row g-4">
+            <div class="col-md-4 text-center">
+              <div class="p-3 border rounded-3 h-100">
+                <h5 class="mb-2 fw-bold">Phone</h5><hr>
+                <p class="mb-0"><a href="tel:+918308002873" class="text-decoration-none">+91 8308002873</a></p>
+              </div>
+            </div>
+            <div class="col-md-4 text-center">
+              <div class="p-3 border rounded-3 h-100">
+                <h5 class="mb-2 fw-bold">Email</h5><hr>
+                <p class="mb-0"><a href="mailto:GreenForest123@example.com" class="text-decoration-none">GreenForest123@example.com</a></p>
+              </div>
+            </div>
+            <div class="col-md-4 text-center">
+              <div class="p-3 border rounded-3 h-100">
+                <h5 class="mb-2 fw-bold">Address</h5><hr>
+                <p class="mb-0"><b>"Green Forest"</b> Phanala, Kolhapur, Maharashtra<br>India</p>
+              </div>
+            </div>
+          </div>
+          <div class="mt-5">
+            <h5 class="text-center mb-3 fw-bold">Google Maps</h5><hr><br>
+            <div class="ratio ratio-16x9 rounded-3 shadow">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.5782026899196!2d74.0930002!3d16.8127006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc0f66f4f75a2d5%3A0x3a4f02d5c6b6cbee!2sPanhala%20Fort%2C%20Panhala%2C%20Maharashtra%2041606!5e0!3m2!1sen!2sin!4v1694000000000!5m2!1sen!2sin" 
+                width="100%" height="400" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+          </div>  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="container-fluidc mt-5 bg-dark " style="padding: 90px;">
+  <div class="container">
+    <div class="row pt-5">
+      <div class="col-lg-4">
+        <img src="assets/logo.png" alt="" style="width: 80% padding-top 20px; margin-top: 50px; margin-left: 80px;" class="circle-img">
+      </div>
+    
+    <div class="col-lg-2 pt-5">
+      <div>
+        <h6 style="color: white;">Quick Link</h6>
+      <ul class="" style="color: white;">
+        <li><a style=" color: white; text-decoration: none;" href="index.html"><h6 class="custom-card">Home</h6></a></li>
+        <li><a style="color: white; text-decoration: none;"  href="About.html"><h6 class="custom-card" >About</h6></a></li>
+        <li><a style="color: white; text-decoration: none;" href="Booking.html"><h6 class="custom-card">Booking</h6></a></li>
+        <li><a style="color: white; text-decoration: none;" href="Query.html"><h6 class="custom-card">Query</h6></a></li>
+        </ul>
+        </div>
+    </div>
+
+        <div class="col-lg-3 pt-5">
+      <div>
+        <h6 style="color: white;">Our Services</h6>
+      <ul class="" style="color: white;">
+        <li><a style=" color: white; text-decoration: none;" href="Booking.html"><h6 class="custom-card">Birthday Celebration</h6></a></li>
+        <li><a style="color: white; text-decoration: none;"  href="Booking.html"><h6 class="custom-card" >Poll-Party</h6></a></li>
+        <li><a style="color: white; text-decoration: none;" href="Booking.html"><h6 class="custom-card">Family Celebration</h6></a></li>
+        <li><a style="color: white; text-decoration: none;" href="About.html"><h6 class="custom-card">About us</h6></a></li>
+        </ul>
+        </div>
+    </div>
+
+        <div class="col-lg-3 pt-5">
+      <div>
+        <h6 style="color: white;">Address</h6><br>
+          <h6 style="color: white;">Located in Panhāla, within 3.5 miles of Panhala Fort and 11 miles of Kolhapur Train Station, Breeze Resort Panhala, Just 5 Minutes From Panhala!</p>
+        </div>
+    </div>
+    </div>
+  </div>
+</div>
+<div class="container1 text-cente"></div>
+<div class="container-fluid mt-5 ">
+  <div class="row text-cente">
+  <h style="text-align: center;">© 2025 Green Haven. All rights reserved.</h>
+</div>
+</div>
+</div> 
+    
+</body>
+</html>
+
+
+<!-----CSS File---->
+
+.navbar{
+    padding: 30px;
+    text-align: center;
+    display: flex;          
+    justify-content: flex-end; 
+}.navbar-nav{
+    text-align: center;
+   
+}.logo{
+    width: 4%;
+    border: 1px solid black;
+    border-radius: 300px;
+}body {
+    font-family: 'Poppins', sans-serif;
+}.banner{
+   border-radius: 5px;
+   width: 90%;
+}.col{
+  text-align: center;
+}.bounce-text {
+      display: inline-block;
+      animation: bounce 2.5s infinite;
+    } @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-20px);
+    }
+    60% {
+      transform: translateY(-10px);
+    }
+  }.container-fluid{
+   box-shadow: 0px -5px 10px rgba(0,0,0,0.5),0px  5px 10px rgba(0,0,0,0.5); 
+  box-shadow: 0px -5px 10px rgba(0,0,0,0.5),0px  5px 10px rgba(0,0,0,0.5); 
+  border-radius: 10px;
+  }.card-body{
+  box-shadow: 0px -5px 10px rgba(0,0,0,0.5),0px  5px 10px rgba(0,0,0,0.5); 
+  border-radius: 1px;
+  }.custom-card {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  border-radius: 9px;
+  padding: 7px;
+}.custom-card:hover {
+  transform: translateY(-10px) scale(1.05); 
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}.custom-card:hover .img-wrapper img {
+  transform: scale(1);
+}.container-fluid{
+box-shadow:0px  5px 10px rgba(0,0,0,0.5);  
+border-radius: 10px;
+}.Gallery{
+  width: 30%;
+}.image-gap {
+   gap: 90px;  
+}.btn{
+box-shadow: 0px -5px 10px rgba(0,0,0,0.5),0px  5px 10px rgba(0,0,0,0.5);  
+border-radius: 10px;
+transition: transform 0.4s ease, box-shadow 0.4s ease;
+    
+}.circle-img {
+  width: 150px;      
+  height: 150px;     
+  border-radius: 70%; 
+  object-fit: cover; 
+  border: 1px solid #ccc;
+}.circle-img {
+  border-radius: 50%;
+  border: 3px solid #fff;
+  transition: transform 0.4s ease;
+}
+.circle-img:hover {
+  transform: rotate(10deg) scale(1.05);
+}.navbar .nav-link {
+  color: #333 !important;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.navbar .nav-link:hover {
+  color: #198754 !important;
+  transform: translateY(-2px);
+}.card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.15);    
+}.carousel img {
+height: 400px;
+object-fit: cover;
+}.carousel .carousel-item {
+transition: transform 1s ease-in-out;
+}
+
+
+
+
